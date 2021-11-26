@@ -1,0 +1,46 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+.head {
+    margin:opx;
+}
+
+.layout {
+    display:grid;
+    height: 100vh;
+    background-color:orange;
+    margin: 0px;
+    padding:0;
+}
+
+.header {
+    display:grid;
+    gap:5px;
+    grid-template-columns: 500px 200px 200px 200px;
+    grid-template-rows: 50px;
+    height: 0px;
+}
+
+.header .div {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    display: grid;
+    text-align: center;
+    font-family:  'Segoe UI';
+}
+
+
+
+
+                      

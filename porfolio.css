@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio-container {
+    height: 100vh;
+    display: grid;
+    grid-template: "header header header" 40px
+                   "main   main    main"           1fr /
+                           1fr;
+}
+
+.header {
+    display: grid;
+    grid-area: header;
+    background-color: orange;
+}
+
+.main {
+    display: grid;
+    grid-area: main;
+    background-color: orange;
+    grid-template-columns: repeat(auto-fit, 400px);
+
+}
